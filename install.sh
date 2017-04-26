@@ -22,4 +22,11 @@ pip install scipy
 pip install matplotlib
 git config --global user.email "mukulhase@gmail.com"
 git config --global user.name "Mukul Hase"
-
+export PIP_REQUIRE_VIRTUALENV=false
+pip install virtualenv
+pip install virtualenvwrapper
+pip install scikit-learn
+pip install "ipython[all]"
+pip install Flask
+git clone https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
