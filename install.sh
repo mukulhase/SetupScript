@@ -1,4 +1,4 @@
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo add-apt-repository ppa:webupd8team/sublime-text-3;
 sudo apt-get update;
@@ -10,3 +10,16 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 npm install -g live-server
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+sudo apt-get install libatlas-dev
+sudo apt-get install liblapack-dev
+sudo apt-get install libfreetype6 libfreetype6-dev
+sudo apt-get install libxft-dev
+sudo apt-get install graphviz libgraphviz-dev
+sudo apt-get install pandoc
+sudo apt-get install libxml2-dev libxslt-dev zlib1g-dev
+pip install numpy
+pip install scipy
+pip install matplotlib
+git config --global user.email "mukulhase@gmail.com"
+git config --global user.name "Mukul Hase"
+
