@@ -10,13 +10,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 npm install -g live-server
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-sudo apt-get install libatlas-dev
-sudo apt-get install liblapack-dev
-sudo apt-get install libfreetype6 libfreetype6-dev
-sudo apt-get install libxft-dev
-sudo apt-get install graphviz libgraphviz-dev
-sudo apt-get install pandoc
-sudo apt-get install libxml2-dev libxslt-dev zlib1g-dev
+sudo apt-get install libatlas-dev liblapack-dev libfreetype6 libfreetype6-dev libxft-dev graphviz libgraphviz-dev pandoc libxml2-dev libxslt-dev zlib1g-dev
 sudo pip install numpy
 sudo pip install scipy
 sudo pip install matplotlib
