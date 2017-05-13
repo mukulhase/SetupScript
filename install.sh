@@ -9,7 +9,7 @@ wget -qO- 'https://raw.githubusercontent.com/mukulhase/AutoVPN/master/autovpn.sh
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 npm install -g live-server gulp express
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 sudo apt-get install libatlas-dev liblapack-dev libfreetype6 libfreetype6-dev libxft-dev graphviz libgraphviz-dev pandoc libxml2-dev libxslt-dev zlib1g-dev
 sudo pip install numpy
 sudo pip install scipy
