@@ -17,17 +17,17 @@ sudo apt-get install libxft-dev
 sudo apt-get install graphviz libgraphviz-dev
 sudo apt-get install pandoc
 sudo apt-get install libxml2-dev libxslt-dev zlib1g-dev
-pip install numpy
-pip install scipy
-pip install matplotlib
+sudo pip install numpy
+sudo pip install scipy
+sudo pip install matplotlib
 git config --global user.email "mukulhase@gmail.com"
 git config --global user.name "Mukul Hase"
 export PIP_REQUIRE_VIRTUALENV=false
-pip install virtualenv
-pip install virtualenvwrapper
-pip install scikit-learn
-pip install "ipython[all]"
-pip install Flask
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+sudo pip install scikit-learn
+sudo pip install "ipython[all]"
+sudo pip install Flask
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 sudo apt-get install ascii-doc
